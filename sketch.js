@@ -17,11 +17,11 @@ function draw()
   }
   if(keyIsDown(UP_ARROW))
   {
-    box.y -=2
+    background("yellow")
   }
   if(keyIsDown(DOWN_ARROW))
   {
-    box.y +=2
+    background("green")
   }
 drawSprites()
 }

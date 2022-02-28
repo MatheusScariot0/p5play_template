@@ -9,11 +9,11 @@ function draw()
   background(30);
   if(keyIsDown(RIGHT_ARROW))
   {
-    box.x +=2
+    background("blue")
   }
   if(keyIsDown(LEFT_ARROW))
   {
-    box.x -=2
+   background("red")
   }
   if(keyIsDown(UP_ARROW))
   {
